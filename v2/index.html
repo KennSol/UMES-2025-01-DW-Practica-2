@@ -10,28 +10,72 @@
     <meta property="og:description" content="Bienvenido a nuestro restaurante. Disfruta de nuestra deliciosa comida.">
     <meta property="og:image" content="modern restaurant entrance with plant theme.png">
     <title>Restaurante Glory</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlaza el archivo CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet"> <!-- Fuentes modernas -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Iconos de redes sociales -->
 </head>
 <body>
     <header>
-        <h1>Restaurante Glory</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="Menu_postres/menu_postres.html">Postres</a></li>
-                <li><a href="Menu_platos_fuertes/menu_platos_fuertes.html">Platos Fuertes</a></li>
-                <li><a href="Personal/personal.html">Personal</a></li>
-                <li><a href="Resenias/resenias.html">Reseñas</a></li>
-                <li><a href="Recetas_dulces/recetas_dulces.html">Recetas Dulces</a></li>
-                <li><a href="Recetas_saladas/recetas_saladas.html">Recetas Saladas</a></li>
-            </ul>
-        </nav>
+        <div class="header-content">
+            <h1>Restaurante Glory</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Menu_postres/menu_postres.html">Postres</a></li>
+                    <li><a href="Menu_platos_fuertes/menu_platos_fuertes.html">Platos Fuertes</a></li>
+                    <li><a href="Personal/personal.html">Personal</a></li>
+                    <li><a href="Resenias/resenias.html">Reseñas</a></li>
+                    <li><a href="Recetas_dulces/recetas_dulces.html">Recetas Dulces</a></li>
+                    <li><a href="Recetas_saladas/recetas_saladas.html">Recetas Saladas</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section>
+    <section class="gallery">
         <h2>Galería</h2>
-        <img src="Imagenes/modern restaurant entrance with plant theme.png" alt="Foto 1 del restaurante" width="300">
-        <img src="Imagenes/modern restaurant exterior with plant theme.png" alt="Foto 2 del restaurante" width="300">
-        <img src="Imagenes/modern restaurant with plant theme, second level.png" alt="Foto 3 del restaurante" width="300">
-        <img src="Imagenes/modern restaurant with plant theme.png" alt="Foto 4 del restaurante" width="300">
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="Imagenes/modern restaurant entrance with plant theme.png" alt="Foto 1 del restaurante">
+                <div class="overlay">Entrada principal</div>
+            </div>
+            <div class="gallery-item">
+                <img src="Imagenes/modern restaurant exterior with plant theme.png" alt="Foto 2 del restaurante">
+                <div class="overlay">Exterior</div>
+            </div>
+            <div class="gallery-item">
+                <img src="Imagenes/modern restaurant with plant theme, second level.png" alt="Foto 3 del restaurante">
+                <div class="overlay">Segundo nivel</div>
+            </div>
+            <div class="gallery-item">
+                <img src="Imagenes/modern restaurant with plant theme.png" alt="Foto 4 del restaurante">
+                <div class="overlay">Ambiente interior</div>
+            </div>
+        </div>
     </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Dirección</h3>
+                <p>Calle Principal #123, Ciudad, País</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p>Teléfono: +123 456 789</p>
+                <p>Email: info@restauranteglory.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Redes Sociales</h3>
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Restaurante Glory. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>

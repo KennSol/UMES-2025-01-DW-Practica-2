@@ -3,37 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Platos Fuertes - Nombre del Restaurante</title>
+    <title>Platos Fuertes - Restaurante Glory</title>
+    <link rel="stylesheet" href="../styles.css"> <!-- Enlaza el archivo CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet"> <!-- Fuentes modernas -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Iconos de redes sociales -->
 </head>
 <body>
     <header>
-        <h1>Platos Fuertes</h1>
+        <div class="header-content">
+            <h1>Platos Fuertes</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../Menu_postres/menu_postres.html">Postres</a></li>
+                    <li><a href="../Menu_platos_fuertes/menu_platos_fuertes.html">Platos Fuertes</a></li>
+                    <li><a href="../Personal/personal.html">Personal</a></li>
+                    <li><a href="../Resenias/resenias.html">Reseñas</a></li>
+                    <li><a href="../Recetas_dulces/recetas_dulces.html">Recetas Dulces</a></li>
+                    <li><a href="../Recetas_saladas/recetas_saladas.html">Recetas Saladas</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section>
-        <div>
-            <h2>Filete Mignon</h2>
-            <p>Filete de res a la parrilla con salsa de vino tinto.</p>
-            <p>Precio: Q25</p>
-            <img src="../Imagenes/Filete de res a la parrilla con salsa de vino tinto.png" alt="Plato 1" width="200">
+    <section class="menu-platos">
+        <div class="plato">
+            <img src="../Imagenes/Filete de res a la parrilla con salsa de vino tinto.png" alt="Filete Mignon">
+            <div class="plato-info">
+                <h2>Filete Mignon</h2>
+                <p>Filete de res a la parrilla con salsa de vino tinto.</p>
+                <p class="precio">Precio: Q25</p>
+            </div>
         </div>
-        <div>
-            <h2>Pasta Alfredo</h2>
-            <p>Pasta con salsa Alfredo y pollo a la parrilla.</p>
-            <p>Precio: Q18</p>
-            <img src="../Imagenes/Pasta con salsa Alfredo y pollo a la parrilla.png" alt="Plato 2" width="200">
+        <div class="plato">
+            <img src="../Imagenes/Pasta con salsa Alfredo y pollo a la parrilla.png" alt="Pasta Alfredo">
+            <div class="plato-info">
+                <h2>Pasta Alfredo</h2>
+                <p>Pasta con salsa Alfredo y pollo a la parrilla.</p>
+                <p class="precio">Precio: Q18</p>
+            </div>
         </div>
-        <div>
-            <h2>Lomo de Cerdo en Salsa de Mostaza y Miel</h2>
-            <p>Un jugoso lomo de cerdo cocido al punto perfecto, acompañado de una exquisita salsa agridulce de mostaza y miel.</p>
-            <p>Precio: Q20</p>
-            <img src="../Imagenes/Lomo de Cerdo en Salsa de Mostaza y Miel.png" alt="Plato 2" width="200">
+        <div class="plato">
+            <img src="../Imagenes/Lomo de Cerdo en Salsa de Mostaza y Miel.png" alt="Lomo de Cerdo">
+            <div class="plato-info">
+                <h2>Lomo de Cerdo en Salsa de Mostaza y Miel</h2>
+                <p>Un jugoso lomo de cerdo cocido al punto perfecto, acompañado de una exquisita salsa agridulce de mostaza y miel.</p>
+                <p class="precio">Precio: Q20</p>
+            </div>
         </div>
-        <div>
-            <h2>Risotto de Mariscos</h2>
-            <p>Un risotto cremoso preparado con una mezcla de mariscos frescos como camarones, mejillones y calamares, infusionado con un toque de vino blanco y terminado con perejil fresco.</p>
-            <p>Precio: Q30</p>
-            <img src="../Imagenes/Risotto de Mariscos.png" alt="Plato 2" width="200">
+        <div class="plato">
+            <img src="../Imagenes/Risotto de Mariscos.png" alt="Risotto de Mariscos">
+            <div class="plato-info">
+                <h2>Risotto de Mariscos</h2>
+                <p>Un risotto cremoso preparado con una mezcla de mariscos frescos como camarones, mejillones y calamares, infusionado con un toque de vino blanco y terminado con perejil fresco.</p>
+                <p class="precio">Precio: Q30</p>
+            </div>
         </div>
     </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Dirección</h3>
+                <p>Calle Principal #123, Ciudad, País</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p>Teléfono: +123 456 789</p>
+                <p>Email: info@restauranteglory.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Redes Sociales</h3>
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Restaurante Glory. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
