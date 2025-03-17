@@ -154,7 +154,7 @@ nav ul.menu li a:hover {
 }
 
 .casilla-info h3 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 1rem;
 }
 
@@ -164,6 +164,7 @@ nav ul.menu li a:hover {
 }
 
 .casilla-info li {
+    font-size: 0.8rem;
     margin: 0.5rem 0;
 }
 
